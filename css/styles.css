@@ -21,8 +21,6 @@ body {
         "footer footer footer";
 }
 
-
-
 .onecontainer {
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
@@ -44,8 +42,6 @@ body {
         grid-area: figure;
     }
 }
-
-
 
 figcaption {
     font-size:13px;
@@ -87,6 +83,16 @@ h2 {
     margin-bottom: 0%;
 }
 
+h3 {
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+}
+
+h4 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
 aside {
     grid-area: aside;
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
@@ -98,7 +104,6 @@ aside {
 li {
     list-style-type:none;
     list-style-position: outside;
-    
 }
 
 .homeaside {
@@ -149,6 +154,11 @@ footer {
     background-color:whitesmoke;
     border-radius: 5px;
     padding: 1%;
+}
+
+address {
+    text-decoration: underline;
+    
 }
 
 .socials {
